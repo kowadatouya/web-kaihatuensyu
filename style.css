@@ -1,4 +1,4 @@
 @charset "utf-8";
 .temp-header{
-    background: radial-gradient(white, blue); ;
+    background: linear-gradient(to right, #F0F8FF, #E6E6FA, #F0F8FF);
 }
