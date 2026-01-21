@@ -2,3 +2,7 @@
 .temp-header{
     background: radial-gradient(white, blue); ;
 }
+
+.header-gradient {
+  background: linear-gradient(90deg, #F0F8FF, #E6E6FA,#F0F8FF);
+}
