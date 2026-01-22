@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* topメインビジュアル */
+.top-background{
+    background-image: url("./img/top_background.png");
+    background-size: cover;
+    background-position: center;
+    height: 399px;
+    width: 100%;
+}
+
+/* メインビジュアルのテキスト */
+.top-txt{
+    color: white;
+    font-size: 64px;    
+    text-align: center;
+    padding-top: 180px;
+}
+
+/* 凍結案内 */
+.Freezing_info{
+    background-image: url("./img/frozen_info_background.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.Freezing_info .content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* 凍結案内テキスト */
+
+.Freezing_info_text{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.Freezing_info_text p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 30px;
+    color: #344F99;
+}
+
+.Freezing_info_text h1,
+.Freezing_info_text h2{
+    font-weight: normal;
+    color: #5B63F6;
+}
+.repair_info{
+    margin-top: 30px;
+}
+
+.repair_info h5{
+    margin-top: 30px;
+    font-weight: normal;
+    color: #344F99;
+}
+/* 凍結案内 見出しアイコン*/
+.heading .icon{
+    width: 5%;
+    height: 5%;
+}
+.heading h1{
+    margin: 0px 20px;
+}
+
+/* 注意書き */
+.cautionary_note{
+    color: #344F99;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
