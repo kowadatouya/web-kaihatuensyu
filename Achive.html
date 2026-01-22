@@ -3,21 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSSリンク -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+
     <title>Achievements</title>
     <link rel="stylesheet" href="Achive.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="temp-header">
-        <h1>早池峰設備工業</h1>
-        <nav>
-            <ul>
-                <li><a href="会社案内.html">会社案内</a></li>
-                <li><a href="#">実績</a></li>
-                <li><a href="採用.html">採用情報</a></li>
-                <li><a href="サービス内容.html">サービス内容</a></li>
-                <li><a href="お問い合わせ.html">お問い合わせ</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg sticky-top header-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <a class="navbar-brand" href="#">早池峰設備工業</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">会社案内</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">実績</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">採用情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">サービス案内</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <img src="./img/Achieve_head.png" alt="実績ヘッダー画像">
     </header>
+    <h1>施工実績</h1>
+    <section class="Achieves">
+        <div id="A_one">
+            <img src="./img/A_1.png" alt="実績画像1">
+        </div>
+        <div id="A_two">
+            <img src="./img/A_2.png" alt="実績画像2">
+        </div>
+        <div id="A_three">
+            <img src="./img/A_3.png" alt="実績画像3">
+        </div>
+    </section>
+    <section class="Achieves">
+        <div id="A_one">
+            <img src="./img/A_4.png" alt="実績画像4">
+        </div>
+        <div id="A_two">
+            <img src="./img/A_5.png" alt="実績画像5">
+        </div>
+        <div id="A_three">
+            <img src="./img/A_6.png" alt="実績画像6">
+        </div>
+    </section>
+    <section class="Achieves">
+        <div id="A_one">
+            <img src="./img/A_7.png" alt="実績画像7">
+        </div>
+        <div id="A_two">
+            <img src="./img/A_8.png" alt="実績画像8">
+        </div>
+        <div id="A_three">
+            <img src="./img/A_9.png" alt="実績画像9">
+        </div>
+    </section>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
