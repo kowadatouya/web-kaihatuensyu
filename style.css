@@ -2,15 +2,8 @@
 body{
     margin: 0;
 }
-.temp-header{
-    background: radial-gradient(
-        /* white 50%, blue */
-        ellipse 80% 500% at center, 
-      #E6E6FA 0%,  
-      #F0F8FF 70% 
-        ); ;
-    
-    margin-top: 0;
+.header-gradient {
+  background: linear-gradient(90deg, #F0F8FF, #E6E6FA,#F0F8FF);
 }
 .husen-midashi{
     text-decoration: none;

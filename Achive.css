@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+nav{
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Bitter', serif;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    background-color: aqua;
+    align-items: center;
+}
+
+header, ul{
+    display: flex;
+    list-style: none;
+}
+
+ul, li{
+    display: flex;
+    width: 150%;
+    text-align: center;
+}
+
+.temp-header{
+    background: linear-gradient(to right, #F0F8FF, #E6E6FA, #F0F8FF);
+}
