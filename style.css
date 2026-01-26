@@ -2,15 +2,52 @@
 body{
     margin: 0;
 }
+h1{
+    color: #344F99;
+    margin: 0;
+}
+h2{
+    color: #344F99;
+}
+p{
+    color: #344F99;
+}
 .header-gradient {
   background: linear-gradient(90deg, #F0F8FF, #E6E6FA,#F0F8FF);
+}
+.temp-footer{
+    position: absolute;
+    background: linear-gradient(90deg, #F0F8FF, #E6E6FA,#F0F8FF);
+}
+.yokonarabi-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-top: 30px;
+    width: 800px;
+}
+.footer-border{
+    text-align: center;
+    border-bottom: 2px solid #344F99;
+    width: 800px;
+}
+.center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 .husen-midashi{
     text-decoration: none;
     padding: 0.5rem;
+    padding-left: 2em;
+    padding-right: 2em;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 30px;
-    margin-right: 950px;
+    margin-right: 720px;
     background: #F0F8FF;
     border-left: solid 16px #ACD8FF;
     color: #5B63F6;
@@ -18,6 +55,7 @@ body{
 }
 .mokuji{
     margin-top: 0;
+    margin-left: 90px;
 }
 .hukidasi-mokuji{
     border-radius: 60px 0px 0px 60px;
@@ -54,8 +92,115 @@ body{
     margin-bottom: 15px;
 }
 .yokonarabi{
-    /* margin-bottom: 10px; */
     display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.yokonarabi-txt{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.yokonarabi2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
     margin-left: 50px;
     margin-right: 50px;
+}
+.yokonarabi-txt2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+/* .yokonarabi-img{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.three-yokonarabi-img{
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.three-yokonarabi-img2{
+    margin-right: 40px;
+} */
+
+
+
+/* 
+.three-yokonarabi-txt{
+    margin-left: 170px;
+}
+.three-yokonarabi-txt2{
+    margin-left: 70px;
+} */
+.kaisetu {
+    margin-left: 150px;
+    padding-left: 50px;
+                            width: 950px;
+                            height: 150px;
+                            background-color: #F0F8FF;
+                            color: #344F99;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            /* clip-pathで左上の角を切り取る */
+                            clip-path: polygon(0% 60px,   /* 点1: 左上の角から下に30px */
+                                                60px 0%,   /* 点2: 左上の角から右に30px */
+                                                100% 0%,   /* 点3: 右上の角 */
+                                                100% 100%, /* 点4: 右下の角 */
+                                                0% 100%  );
+        }
+.kaisetu2 {
+    margin-left: 150px;
+    padding-left: 50px;
+                            width: 950px;
+                            height: 300px;
+                            background-color: #F0F8FF;
+                            color: #344F99;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            /* clip-pathで左上の角を切り取る */
+                            clip-path: polygon(0% 60px,   /* 点1: 左上の角から下に30px */
+                                                60px 0%,   /* 点2: 左上の角から右に30px */
+                                                100% 0%,   /* 点3: 右上の角 */
+                                                100% 100%, /* 点4: 右下の角 */
+                                                0% 100%  );
+        }
+.temp-button{
+    font-size: 15px;
+    color: #0059FF;
+    background-color: #C1FFE4;
+            border:none;
+            margin-left: 8px;
+            margin-right: 8px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 64px;
+            padding-right: 64px;
+            border-radius: 5%;
+            box-shadow: 10%,10%, 5px,10%;
+}
+.taiouitiran{
+    border-bottom: 2px solid;
+    width: 500px;
+}
+.yokonarabi-taiou{
+    margin-right: 55px;
+}
+.yokonarabi-taiou2{
+    margin-right: 20px;
+}
+.taiou-p{
+    font-size: 20px;
+}
+.height-margin{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 140px;
 }
