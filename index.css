@@ -73,3 +73,48 @@
     width: 20%;
     background-color: rgba(255, 255, 255, 0.8);
 }
+
+/* 見出し */
+.business .heading{
+    padding: 0.5em;/*文字周りの余白*/
+    color: #5B63F6;/*文字色*/
+    background: #F0F8FF;/*背景色*/
+    border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
+    width: 50%;
+    text-align: center;
+}
+
+.business .heading h1{
+    font-weight: normal;
+}
+
+/* 事業内容 */
+.top_content{
+    width: 80%;
+}
+
+#carouselExampleDark .carousel-control-prev{
+    margin-left: -10%;
+}
+
+#carouselExampleDark .carousel-control-next{
+    margin-right: -10%;
+}
+
+#carouselExampleDark-S .carousel-control-prev{
+    margin-left: -10%;
+}
+
+#carouselExampleDark-S .carousel-control-next{
+    margin-right: -10%;
+}
+
+.carousel-indicators{
+    margin-bottom: -3%;
+}
+
+/* 事業内容 */
+.business-content{
+    padding: 5%;
+    background-color: #F0F8FF;
+}
