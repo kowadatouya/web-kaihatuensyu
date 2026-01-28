@@ -75,17 +75,28 @@
 }
 
 /* 見出し */
-.business .heading{
-    padding: 0.5em;/*文字周りの余白*/
+.business .heading h1{
+    padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #F0F8FF;/*背景色*/
     border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
     width: 50%;
     text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    margin-left: -5%;
 }
 
-.business .heading h1{
+/* 見出し2 */
+.top_content .heading h2{
+    padding: 0.3em;/*文字周りの余白*/
+    color: #5B63F6;/*文字色*/
+    background: #DDEFFF;/*背景色*/
+    border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
+    width: 45%;
+    text-align: center;
     font-weight: normal;
+    margin: 0px;
 }
 
 /* 事業内容 */
@@ -117,4 +128,5 @@
 .business-content{
     padding: 5%;
     background-color: #F0F8FF;
+    border: solid 5px #9AD0FF;
 }
