@@ -75,7 +75,7 @@
 }
 
 /* 見出し */
-.business .heading h1{
+.top_content .heading h1{
     padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #F0F8FF;/*背景色*/
@@ -88,7 +88,8 @@
 }
 
 /* 見出し2 */
-.top_content .heading h2{
+.top_content .heading h3,
+.top_content .heading h4{
     padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #DDEFFF;/*背景色*/
@@ -97,6 +98,10 @@
     text-align: center;
     font-weight: normal;
     margin: 0px;
+}
+
+.area-content .heading h4{
+    width: auto;
 }
 
 /* 事業内容 */
@@ -125,8 +130,47 @@
 }
 
 /* 事業内容 */
-.business-content{
-    padding: 5%;
+.business-content,
+.area-content{
+    padding: 3%;
     background-color: #F0F8FF;
     border: solid 5px #9AD0FF;
+}
+
+/* 対応地域 */
+.area_img{
+    width: 219px;
+    height: 358px;
+}
+
+.area_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.area-content ul {
+    list-style-type: circle; /* リストマーカーを白丸に設定 */
+
+}
+
+.area-content{
+    color: #344F99;
+}
+
+.area ul li{
+    margin-bottom: 20%;
+}
+
+.area_note_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: block;
+    box-shadow: 2px 2px 0px 0px #CECEED;
+    background-color: #E6E6FA;
+    color: #5B63F6;
+    padding: 5%;
 }
