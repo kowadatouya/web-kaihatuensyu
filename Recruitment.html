@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top header-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <a class="navbar-brand" href="#">早池峰設備工業</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">会社案内</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">実績</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">採用情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">サービス案内</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content1">
+        <h1 class="husen-midashi">採用情報</h1>
+        <div class="husen-midashi">
+            <h1>地元を愛する、水を愛する</h1>
+            <p>「大切な水」をお届けする誇りをあなたと。</p>
+        </div>
+    </div>
+    <div class="content2">
+        <h1 class="husen-midashi">募集要項</h1>
+        <div class="yokonarabi">
+            <div class="recruit-detail">
+                <h3 class="recruit-text">勤務地：盛岡市、滝沢市他市区町村</h3>
+                <h3 class="recruit-text">事業内容：一般住宅、ビル等の給排水設備工事、浄化槽工事、水道施設工事</h3>
+                <h3 class="recruit-text">仕事内容：建物に必要な風呂、トイレ、洗面台、<br>
+                    キッチン等の設置や建物周辺を掘って建物内部へ
+                    の<br>水道引込などを役所より許可を得て行います</h3>
+            </div>
+            <div class="recruit-detail2">
+                <h3 class="recruit-text">求める人材：明るく素直に仕事ができる人を希望します</h3>
+                <h3 class="recruit-text">給与：月額160,000</h3>
+                <h3 class="recruit-text">勤務時間：8:00~17:00</h3>
+                <button class="temp-button">
+                <h1 class="button-big-text">お問い合わせ</h1>
+                <h2>の方はこちら</h2>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="husen-midashi">資料請求プレビュー(1ページまで)</h1>
+        <div class="yokonarabi">
+            <div class="siryou">
+                <h1>パンフレット</h1>
+                <img src="img/panf.png" class="siryou-prev" alt="点検中の写真2"title="点検2" width="600" height="450">
+            </div>
+            <div class="siryou">
+                <h1>求人票</h1>
+                <img src="img/kyuujin.png" class="siryou-prev" alt="点検中の写真2"title="点検2" width="300" height="450">
+            </div>
+        </div>
+        <h1 class="yuusou-midasi">資料の請求</h1>
+        <div class="text-margin">
+            <div class="yokonarabi-text">
+                <h1>名前：</h1>
+                <input class="textbox" name="name" type="text">
+            </div>
+            <div class="yokonarabi">
+                <h1>郵便番号：</h1>
+                <input class="textbox" name="zipcode" type="text">
+            </div>
+            <div class="yokonarabi-text">
+                <h1>住所：</h1>
+                <input class="textbox" name="address" type="text">
+            </div>
+        </div>
+        <div class="yokonarabi-text">
+                <h1 class="combo-h1">発行部数：</h1>
+                <select class="yokonarabi-combo" name="copies">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                </select>
+            </div>
+            <button class="seikyuu-button" onclick="confirmRequest()"><h2>資料請求</h2></button>
+    </div>
+    <div class="yokonarabi-down">
+        <div class="husen-midashi-down">
+            <h2>パンフレットの</h2>
+            <h2>ダウンロードはこちら</h2>
+        </div>
+        <div class="husen-midashi-down">
+            <h2>求人票の</h2>
+            <h2>ダウンロードはこちら</h2>
+        </div>
+    </div>
+    <div class="yokonarabi-down">
+        <button class="down-button">
+            <h2>パンフレット</h2>
+            <h2>ダウンロード</h2>
+        </button>
+        <button class="down-button">
+            <h2>求人票</h2>
+            <h2>ダウンロード</h2>
+        </button>
+    </div>
+    <footer class="temp-footer">
+        <div class="yokonarabi-footer">
+            <p class="footer-border">会社案内</p>
+            <p class="footer-border">資料請求</p>
+            <p class="footer-border">採用情報</p>
+            <p class="footer-border">お問い合わせ</p>
+            <p class="footer-border">実績</p>
+        </div>
+        <h1 class="center"><img src="./img/logo.png" width="50" height="50">早池峰設備工業</h1>
+    </footer>
+<script>
+function confirmRequest() {
+    const name = document.querySelector('[name="name"]').value.trim();
+    const zipcode = document.querySelector('[name="zipcode"]').value.trim();
+    const address = document.querySelector('[name="address"]').value.trim();
+    const copies = document.querySelector('[name="copies"]').value;
+
+    // 未入力チェック
+    if (!name || !zipcode || !address || !copies) {
+        alert('すべての項目を入力してください。');
+        return;
+    }
+
+    // confirm ダイアログ
+    const result = confirm(
+        '以下の内容で資料請求しますか？\n\n' +
+        `名前：${name}\n` +
+        `郵便番号：${zipcode}\n` +
+        `住所：${address}\n` +
+        `発行部数：${copies}`
+    );
+
+    if (result) {
+        alert('資料請求を受け付けました。');
+    } else {
+    }
+}
+</script>
+
+</body>
+</html>
