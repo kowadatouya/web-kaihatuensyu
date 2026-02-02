@@ -30,9 +30,7 @@ p{
     width: 800px;
 }
 .footer-border{
-    text-decoration: none;
     text-align: center;
-    color: #344F99;
     border-bottom: 2px solid #344F99;
     width: 800px;
 }
@@ -228,13 +226,16 @@ p{
     z-index: -1;
 }
 .temp-button{
+    text-align: center;
     font-size: 15px;
     color: #0059FF;
     background-color: #C1FFE4;
     box-shadow: 5px 5px 0px #5F9EA0;
             border:none;
-            margin-left: 8px;
-            margin-right: 8px;
+            display: inline-block;
+            text-decoration: none;
+            /* margin-left: 20px; */
+            /* margin-right: 50px; */
             padding-top: 16px;
             padding-bottom: 16px;
             padding-left: 64px;
@@ -482,5 +483,7 @@ p{
 .inquiry-detail-textarea{
     text-align: center;
     margin: auto;
-
+}
+.border-delete{
+    text-decoration: none;
 }
