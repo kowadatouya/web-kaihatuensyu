@@ -30,7 +30,9 @@ p{
     width: 800px;
 }
 .footer-border{
+    text-decoration: none;
     text-align: center;
+    color: #344F99;
     border-bottom: 2px solid #344F99;
     width: 800px;
 }
@@ -379,6 +381,7 @@ p{
     box-shadow: 5px 5px 0px #CECEED;
 }
 .down-button{
+    text-decoration: none;
     text-align: center;
     font-size: 15px;
     color: #0059FF;
