@@ -21,63 +21,12 @@
     padding-top: 180px;
 }
 
-/* 凍結案内 */
-.Freezing_info{
-    background-image: url("./img/frozen_info_background.webp");
-    background-size: cover;
-    background-position: center;
-    padding: 60px 0;
-}
 
-.Freezing_info .content {
-    width: 80%;
-    margin: 0 auto;
-}
 
-/* 凍結案内テキスト */
-
-.Freezing_info_text{
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    text-align: center;
-}
-
-.Freezing_info_text p{
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 30px;
-    color: #344F99;
-}
-
-.Freezing_info_text h1,
-.Freezing_info_text h2{
-    font-weight: normal;
-    color: #5B63F6;
-}
-.repair_info{
-    margin-top: 30px;
-}
-
-.repair_info h5{
-    margin-top: 30px;
-    font-weight: normal;
-    color: #344F99;
-}
-/* 凍結案内 見出しアイコン*/
-.heading .icon{
-    width: 5%;
-    height: 5%;
-}
 .heading h1{
     margin: 0px 20px;
 }
 
-/* 注意書き */
-.cautionary_note{
-    color: #344F99;
-    width: 20%;
-    background-color: rgba(255, 255, 255, 0.8);
-}
 
 /* 見出し */
 .top_content .heading h1{
@@ -119,26 +68,6 @@
     width: 80%;
 }
 
-#carouselExampleDark .carousel-control-prev{
-    margin-left: -10%;
-}
-
-#carouselExampleDark .carousel-control-next{
-    margin-right: -10%;
-}
-
-#carouselExampleDark-S .carousel-control-prev{
-    margin-left: -10%;
-}
-
-#carouselExampleDark-S .carousel-control-next{
-    margin-right: -10%;
-}
-
-.carousel-indicators{
-    margin-bottom: -3%;
-}
-
 /* 事業内容 */
 .business-content,
 .area-content,
@@ -149,35 +78,6 @@
     border: solid 5px #9AD0FF;
 }
 
-/* 対応地域 */
-.area_img{
-    width: 219px;
-    height: 358px;
-}
-
-.area_img img{
-    width: 100%;
-    height: 100%;
-}
-
-.area-content ul {
-    list-style-type: circle; /* リストマーカーを白丸に設定 */
-
-}
-
-.area-content{
-    color: #344F99;
-}
-
-.area ul li{
-    margin-bottom: 20%;
-}
-
-.area_note_button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 
 .btn {
     display: block;
@@ -188,32 +88,6 @@
 }
 
 
-/* 会社について */
-.company_img,
-.motto_img{
-    width: auto;
-    height: 211px;
-}
-.company_img img,
-.motto_img img{
-    width: 100%;
-    height: 100%;
-}
-
-.motto_img{
-    background-color: white;
-}
-
-.company-content .text{
-    color: #344F99;
-}
-
-.company-content .btn{
-    width: auto;
-    font-size: 24px;
-    padding: 10px;
-
-}
 
 .bold{
     font-weight: bold;
@@ -257,10 +131,3 @@ a.btn:hover {
 .list li{
     margin: 5px 0;
 }
-
-
-/* アクセスマップ */
-/* .map{
-    width: 482px;
-    height: 203px;
-} */
