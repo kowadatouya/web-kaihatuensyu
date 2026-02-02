@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSSリンク -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indices.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top header-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <a class="navbar-brand" href="#">早池峰設備工業</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">会社案内</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="Achive.html">実績</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">採用情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">サービス案内</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inquiry.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="indices_title">
+        <div id="title_items">
+            <h1>索引</h1>
+            <div id="indices_line"></div>
+        </div>
+        <div id="indices_items">
+            <div id="text_box">
+                <input type="text" id="indices_text_bar" placeholder="検索キーワードを入力...">
+            </div>
+            <div id="pull_down">
+                <select name="job">
+                    <option value="#">工事内容</option>
+                    <option value="1">内容1</option>
+                    <option value="2">内容2</option>
+                    <option value="3">内容3</option>
+                    <option value="4">内容4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="text_group">
+        <div class="texts">
+            <p class="text_title">・給水管引込工事</p>
+            <div class="text_line"></div>
+            <p class="text_main">上水を建物内に引き込むため水道本管から給水管を分岐させ、水道メーターまで配管る工事。</p>
+        </div>
+        <div class="texts">
+            <p class="text_title">・屋内配管工事</p>
+            <div class="text_line"></div>
+            <p class="text_main">建物の内部に水を供給し、排水するための管路を設置・接続する工事を指す。主に給水管、給湯管、排水管、通気管などで構成され、キッチン、洗面、トイレ、浴室などの生活設備と密接に関わる。</p>
+        </div>
+        <div class="texts">
+            <p class="text_title">・修繕工事</p>
+            <div class="text_line"></div>
+            <p class="text_main">建物が古くなったり傷んだりして劣化した部分を、建設当初の性能や状態にまで回復させるための工事。外壁の塗装、ひび割れ補修、防水工事、設備部品の交換などが含まれ、建物の安全性維持と資産価値の保全を目的とし、数年～10数年ごとに計画的に実施される</p>
+        </div>
+        <div class="texts">
+            <p class="text_title">・下水道配管工事</p>
+            <div class="text_line"></div>
+            <p class="text_main">家庭の台所・風呂・トイレなどからの汚水を、敷地内の排水管や汚水ますを通して「公共ます」に接続し、最終的に下水道本管へ流すための工事。建物の所有者負担で行われ、衛生的な環境維持に不可欠なインフラ整備の一部。公共下水道の整備後に、各自治体の指定業者を通じて申請・実施され、雨水と汚水を分ける「分流式」が基本</p>
+        </div>
+        <div class="texts">
+            <p class="text_title">・浄化水槽設置工事</p>
+            <div class="text_line"></div>
+            <p class="text_main">下水道が整備されていない地域で、家庭や施設のトイレ・台所などからの生活排水（汚水）を微生物の力で分解・処理し、安全な水にしてから放流するための「浄化槽」という設備を、土地に埋め込んで配管接続し、稼働させるための工事全般</p>
+        </div>
+        <div id="pagination">
+            <a href="#">前へ</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">次へ</a>
+        </div>
+    </div>
+</body>
+</html>
