@@ -3,41 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <title>施工までの流れ</title>
 </head>
 <body>
-    <header class="header-gradient">
-        <h1>早池峰設備工業</h1>
-    </header>
+    <nav class="navbar navbar-expand-lg sticky-top header-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <a class="navbar-brand" href="#">早池峰設備工業</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">会社案内</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">実績</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">採用情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">サービス案内</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1 class="husen-midashi">施工までの流れ</h1>
     <div class="yokonarabi">
         <h1 class="mokuji">目次</h1>
         <div>
-            <div class="yokonarabi"><h2 class="hukidasi-mokuji">STEP.1</h2><h2 class="hukidasi-right">準備・見積もりの例</h2></div>
-            <div class="yokonarabi"><h2 class="hukidasi-mokuji">STEP.2</h2><h2 class="hukidasi-right">準備・見積もりの例</h2></div>
+            <div class="yokonarabi"><h2 class="hukidasi-mokuji">STEP.1</h2>
+                <h2 class="hukidasi-right"><a href="#preparation">準備</a>・<a href="#estimate">見積もりの例</a></h2>
+            </div>
+            <div class="yokonarabi"><h2 class="hukidasi-mokuji">STEP.2</h2>
+                <h2 class="hukidasi-right"><a href="#construction">修理、施工</a></h2>
+            </div>
             <div class="yokonarabi">
                 <h2 class="hukidasi-mokuji">STEP.3</h2>
-                <h2 class="hukidasi-right">準備・見積もりの例</h2>
+                <h2 class="hukidasi-right"><a href="#confirmation">最終確認、支払い</a></h2>
             </div>
             <div class="yokonarabi">
                 <h2 class="hukidasi-mokuji">STEP.4</h2>
-                <h2 class="hukidasi-right">準備・見積もりの例</h2>
+                <h2 class="hukidasi-right"><a href="#end">施工終了までの期間</a>・<a href="#region">対応地域</a></h2>
             </div>
         </div>
     </div>
-    <h1 class="husen-midashi">STEP.1 準備</h1>
+    <h1 id="preparation" class="husen-midashi">STEP.1 準備</h1>
     <div class="yokonarabi">
         <img src="img/jyunbi1.jpg" class="yokonarabi-img" alt="点検中の写真1"title="点検1" width="400" height="200">
         <img src="img/jyunbi2.jpg" alt="点検中の写真2"title="点検2" width="400" height="200">
     </div>
-    <p class="kaisetu">
-        お問い合わせや電話から、症状、凍結・破損個所、建物の種類、経緯などの状況を把握<br>
-        し配管の凍結箇所や状態(破裂や漏水がないか)等の確認、確認に応じた作業内容やそれ<br>
-        に伴う費用(修理費、部品代、出張費など)の見積もりの提示を行います。
-    </p>
-    <h1 class="husen-midashi">見積もりの例</h1>
-    <p class="kaisetu2">
+    <div class="kaisetu-wrap">
+        <p class="kaisetu">
+            お問い合わせや電話から、症状、凍結・破損個所、建物の種類、経緯などの状況を把握<br>
+            し配管の凍結箇所や状態(破裂や漏水がないか)等の確認、確認に応じた作業内容やそれ<br>
+            に伴う費用(修理費、部品代、出張費など)の見積もりの提示を行います。
+        </p>
+    </div>
+    <h1 id="estimate" class="husen-midashi">見積もりの例</h1>
+    <div class="kaisetu-wrap2">
+        <p class="kaisetu2">
         解氷作業のみ：１万円～２万円程度<br><br>
         水道管が破裂している場合：１万円～２万円程度<br><br>
         床下、壁内の水道管：１万円～２万円程度<br><br>
@@ -45,6 +73,7 @@
         床下や壁内の水道管の工事の場合、調査や修理の難易度の高さや建物の復旧に伴う<br>
         追加費用により費用が高くなることがあります。
     </p>
+    </div>
     <div class="yokonarabi">
             <img src="img/haretu.png" class="yokonarabi-img" alt="点検中の写真1"title="点検1" width="400" height="200">
             <img src="img/rousui.png" alt="点検中の写真2"title="点検2" width="400" height="200">
@@ -53,8 +82,9 @@
         <h2>破裂した水道管</h2>
         <h2>漏水した水道管</h2>
     </div>
-    <h1 class="husen-midashi">STEP.2 修理、施工</h1>
-    <p class="kaisetu2">
+    <h1 id="construction" class="husen-midashi">STEP.2 修理、施工</h1>
+    <div class="kaisetu-wrap2">
+        <p class="kaisetu2">
         提示された見積もりに納得し、合意いただけた場合、修理、施工作業を開始します。<br><br>
         凍結の場合：主に専用の解氷機や温水などを用いて、凍結した氷を溶かします。<br><br>
         破裂・破損の場合：破損した配管や蛇口の部品交換、または露出している配管の保温材<br>
@@ -62,6 +92,7 @@
         漏水調査の場合：漏水音を聞き取る専用の機器や配管内部にカメラを入れての調査、人体<br>
         に害のないガスを流すなど目視ではわからない場所の漏水箇所を特定します。
     </p>
+    </div>
     <div class="yokonarabi">
         <div>
             <img src="img/touketusyuri.png" class="three-yokonarabi-img" alt="点検中の写真1"title="点検1" width="300" height="150">
@@ -81,7 +112,7 @@
         <h2>漏水した水道管</h2>
         <h2>漏水した水道管</h2>
     </div>
-    <h1 class="husen-midashi">STEP.3 最終確認・支払い</h1>
+    <h1 id="confirmation" class="husen-midashi">STEP.3 最終確認、支払い</h1>
     <div class="yokonarabi">
             <img src="img/nai-after.jpg" class="yokonarabi-img" alt="点検中の写真1"title="点検1" width="400" height="200">
             <img src="img/after.jpg" alt="点検中の写真2"title="点検2" width="400" height="200">
@@ -90,12 +121,15 @@
         <h2>破裂した水道管</h2>
         <h2>漏水した水道管</h2>
     </div>
-    <p class="kaisetu">
+    <div class="kaisetu-wrap">
+        <p class="kaisetu">
         作業完了後、水道が正常に利用できるか、水漏れ等がないかを依頼主と一緒に確認し<br>
         ます。問題がなければ修理費用を支払っていただき、領収書をお渡しいたします。
     </p>
-    <h1 class="husen-midashi">施工終了までの期間</h1>
-    <p class="kaisetu2">
+    </div>
+    <h1 id="end" class="husen-midashi">施工終了までの期間</h1>
+    <div class="kaisetu-wrap2">
+        <p class="kaisetu2">
         凍結のみの修理：半日程度<br><br>
         配管の全面交換や複雑な作業の場合：１日以上<br><br>
         破裂による交換が必要になる場合や床下や壁内などに埋まってい<br>
@@ -105,7 +139,8 @@
         費用や時間も多くかかってしまいます。凍結しているかも？と思ったらお早めに<br>
         お問い合わせください。
     </p>
-    <h1 class="husen-midashi">施工終了までの期間</h1>
+    </div>
+    <h1 id="region" class="husen-midashi">対応地域</h1>
     <div class="yokonarabi2">
         <img src="img/対応地域.png" class="yokonarabi-taiou" alt="点検中の写真2"title="点検2" width="300" height="450">
         <div class="yokonarabi-taiou2">
@@ -129,7 +164,7 @@
             ください。
             </p>
             <button class="temp-button">
-                <h2>工事を依頼</h2>
+                <h1 class="button-big-text">工事を依頼</h1>
                 <p>したい方はこちら</p>
             </button>
         </div> 
