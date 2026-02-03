@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSSリンク -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- Cssリンク -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="company_info.css">
     <title>会社案内</title>
 </head>
+
 <body id="company_info">
 
     <nav class="navbar navbar-expand-lg sticky-top header-gradient">
@@ -21,8 +22,9 @@
                 <img src="./img/logo.png" alt="Bootstrap">
                 早池峰設備工業
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
@@ -47,10 +49,10 @@
             <!-- 経営理念 -->
             <div class="business mt-5">
                 <div class="heading">
-                <h1>経営理念</h1>
+                    <h1>経営理念</h1>
                 </div>
             </div>
-            <div class="business-content mt-5">                
+            <div class="business-content mt-5">
                 <p>私たちは、給排水、衛生設備工事及び、冷暖房設備工事を通じて住環境・地球環境整備に努め、会社に貢献し、共に学び、共に栄え</p>
                 <p class="mb-0">お客様に心より満足し喜んでいただける仕事・サービスにを提供する事をえ経営理念に掲げ日夜努力し続けています</p>
             </div>
@@ -127,8 +129,9 @@
             </div>
             <div class="base_content mt-5 d-flex align-items-end">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1234567890123!2d141.152123456789!3d39.703123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a1234567890ab%3A0xcdef1234567890ab!2z5pel5pys44Gu44OG44K544OI44Gn44GZ44CC!5e0!3m2!1sja!2sjp!4v1610000000000!5m2!1sja!2sjp" 
-                    width="482" height="203" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1234567890123!2d141.152123456789!3d39.703123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a1234567890ab%3A0xcdef1234567890ab!2z5pel5pys44Gu44OG44K544OI44Gn44GZ44CC!5e0!3m2!1sja!2sjp!4v1610000000000!5m2!1sja!2sjp"
+                        width="482" height="203" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                 </div>
                 <div class="ms-3">
@@ -142,7 +145,7 @@
                 <h1>会社沿革</h1>
             </div>
             <div class="base_content mt-5">
-            
+
                 <table class="base_table">
                     <tr>
                         <th>昭和50年7月</th>
@@ -188,8 +191,101 @@
                 <h1>資料請求</h1>
             </div>
             <div class="base_content mt-5">
+                <div class="pamphlet d-flex p-5 align-items-center">
+                    <div class="pamphlet_title text-center">
+                        <h4>会社案内</h4>
+                        <h4>パンフレット</h4>
+                        <div class="pamphlet_title_img mt-5">
+                            <img src="./img/info_pamphlet.png" alt="">
+                        </div>
+                    </div>
 
+                    <div class="pamphlet_img ms-5">
+                        <img src="./img/info_pamphlet_p.png" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="heading mt-5">
+                    <h3>パンフレットの輸送</h3>
+                    <p>※以下に入力した住所に資料が届きます</p>
+                </div>
+
+                <div class="form">
+                    <!-- 名前 -->
+                    <div class="mb-3 row">
+                        <label for="inputName" class="col-sm-2 col-form-label text-end">名前：</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                    </div>
+                    <!-- 郵便番号 -->
+                    <div class="mb-3 row">
+                        <label for="inputPostalCode" class="col-sm-2 col-form-label text-end">郵便番号：</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputPostalCode">
+                        </div>
+                    </div>
+                    <!-- 住所 -->
+                    <div class="mb-3 row">
+                        <label for="inputAddress" class="col-sm-2 col-form-label text-end">住所：</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                    </div>
+                    <!-- 発行部数 -->
+                    <div class="mb-3 row">
+                        <label for="inputNumberOfCopies" class="col-sm-2 col-form-label text-end">発行部数：</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control col-auto" id="inputNumberOfCopies" min="1"
+                                max="50">
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button class="btn" type="submit">
+                            資料請求
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="row pamphlet_Recruitment">
+                    <div class="pamphlet_button col">
+                        <div class="heading mt-5">
+                            <h3>パンフレットのダウンロードはこちら</h3>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-5">
+                            <button class="btn" type="submit">
+                                <h3>資料請求</h3>
+                                <p>ダウンロード</p>
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <div class="Recruitment_info_button col">
+                        <div class="pamphlet_button">
+                            <div class="heading mt-5">
+                                <h3>採用情報</h3>
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-5">
+                            <a class="btn" href="#">
+                                <h3>採用情報について</h3>
+                                <p>詳しく知りたい方はこちら</p>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+
 
         </div>
 
@@ -197,8 +293,9 @@
 
 
     <!-- Bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
