@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSSリンク -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- Cssリンク -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
     <title>top</title>
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg sticky-top header-gradient">
@@ -21,16 +22,18 @@
                 <img src="./img/logo.png" alt="Bootstrap">
                 早池峰設備工業
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./company_info.html">会社案内</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">実績</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">採用情報</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">サービス案内</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./company_info.html">会社案内</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./Achive.html">実績</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Recruitment.html">採用情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#service">サービス案内</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./inquiry.html">お問い合わせ</a></li>
                 </ul>
             </div>
         </div>
@@ -40,7 +43,7 @@
         <div class="top-background">
             <p class="top-txt">あなたの近くに水とともに</p>
         </div>
-    
+
         <!-- 凍結案内 -->
         <div class="Freezing_info">
             <div class="content">
@@ -55,25 +58,31 @@
                     <p>水道管の凍結に対して凍結の修理、漏水の調査や修理、給排水配管替工事などの工事を行っています。</p>
                     <h2>お困りの方はぜひお早めにご相談ください。</h2>
                 </div>
-        
+
                 <div class="repair_info d-flex justify-content-between">
                     <div class="card rounded-0 p-3" style="width: 18rem;">
-                        <img src="./img/frozen.png" class="card-img-top rounded-0" alt="凍結イメージ">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">凍結の修理</h5>
-                        </div>
+                        <a href="./Construction.html">
+                            <img src="./img/frozen.png" class="card-img-top rounded-0" alt="凍結イメージ">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">凍結の修理</h5>
+                            </div>
+                        </a>
                     </div>
                     <div class="card rounded-0 p-3" style="width: 18rem;">
-                        <img src="./img/water_leak.png" class="card-img-top rounded-0" alt="漏水イメージ">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">漏水調査、修理</h5>
-                        </div>
+                        <a href="./Construction.html">
+                            <img src="./img/water_leak.png" class="card-img-top rounded-0" alt="漏水イメージ">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">漏水調査、修理</h5>
+                            </div>
+                        </a>
                     </div>
                     <div class="card rounded-0 p-3" style="width: 18rem;">
-                        <img src="./img/plumbing.png" class="card-img-top rounded-0" alt="給排水配管替工事イメージ">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">給排水配管替工事</h5>
-                        </div>
+                        <a href="./Construction.html">
+                            <img src="./img/plumbing.png" class="card-img-top rounded-0" alt="給排水配管替工事イメージ">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">給排水配管替工事</h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="cautionary_note p-2 ms-auto mt-3 ">
@@ -86,14 +95,16 @@
             <!-- 事業内容 -->
             <div class="business mt-5">
                 <div class="heading" id="zigyou">
-                <h1>事業内容</h1>
+                    <h1>事業内容</h1>
                 </div>
             </div>
             <div class="business-content mt-5">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide m-5">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
@@ -102,100 +113,79 @@
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>一般住宅、ビル等の採水設備工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>水道施設工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>とび・木工工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>管工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" >
+                        <div class="carousel-item">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-3">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>木工工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
-                                        <div class="card-body">
-                                            <h5>一般住宅</h5>
-                                        </div>
-    
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
-                                        <div class="card-body">
-                                            <h5>一般住宅</h5>
-                                        </div>
-    
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
-                                        <div class="card-body">
-                                            <h5>一般住宅</h5>
-                                        </div>
-    
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
 
                 <!-- その他サービス内容 -->
-                <div class="heading">
+                <div class="heading" id="service">
                     <h3>その他サービス内容</h3>
                 </div>
                 <div id="carouselExampleDark-S" class="carousel carousel-dark slide m-5">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
@@ -204,7 +194,7 @@
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>漏水調査・修理</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +202,8 @@
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>浴室・台所等</h5>
+                                            <h5>混合栓交換</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -220,108 +211,94 @@
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>洗面・化粧台交換</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>トイレ交換</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" >
+                        <div class="carousel-item">
                             <div class="row">
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>トイレ・台所等</h5>
+                                            <h5>詰り修理</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>給湯機の交換</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>水道管凍結修理</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>井戸ポンプ修理・交換</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" >
+                        <div class="carousel-item">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-3">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>給排水配管替工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-3">
                                     <div class="card">
                                         <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
                                         <div class="card-body">
-                                            <h5>一般住宅</h5>
+                                            <h5>灯油配管替工事</h5>
                                         </div>
-    
+
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
-                                        <div class="card-body">
-                                            <h5>一般住宅</h5>
-                                        </div>
-    
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img class="card-img-top" src="./img/top_equipment.jpg" alt="">
-                                        <div class="card-body">
-                                            <h5>一般住宅</h5>
-                                        </div>
-    
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark-S"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark-S" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark-S"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -348,13 +325,13 @@
                             <li>宮古市</li>
                             <li>紫波町</li>
                         </ul>
-                        <ul>                            
+                        <ul>
                             <li>花巻市</li>
                             <li>滝沢市</li>
                             <li>遠野市</li>
                             <li>住田町</li>
                         </ul>
-                        <ul>                            
+                        <ul>
                             <li>大船渡市</li>
                             <li>陸前高田市</li>
                             <li>一関市</li>
@@ -364,12 +341,12 @@
                         <h4 class="m-1">下水道指定市町村(下水道指定のみ)</h4>
                     </div>
                     <div class="area-2 d-flex">
-                        <ul >
+                        <ul>
                             <li>奥州市</li>
                         </ul>
                         <ul>
                             <li>北上市</li>
-                            
+
                         </ul>
                         <ul>
                             <li>葛巻町</li>
@@ -379,8 +356,8 @@
                 </div>
                 <div class="area_note_button col ">
                     <p class="mb-0">※対応地域以外からの依頼は受け付けておりません。対応地域を確認の上お問い合わせください。</p>
-                    <a href="" class="btn mt-3">実績</a>
-                    <a href="" class="btn mt-3">お問い合わせ</a>
+                    <a href="./Achive.html" class="btn mt-3">実績</a>
+                    <a href="./inquiry.html" class="btn mt-3">お問い合わせ</a>
                 </div>
 
             </div>
@@ -388,7 +365,7 @@
             <div class="heading auto mt-5" id="annai">
                 <h1>株式会社早池峰設備工業について</h1>
             </div>
-            <div class="mt-5 company-content">
+            <div class="mt-5 company-content mb-5">
                 <div class="Introduction row d-flex align-items-center">
                     <div class="company_img">
                         <img src="./img/company.png" alt="">
@@ -413,17 +390,30 @@
 
                 </div>
 
-                <a href="" class="btn mt-5" role="button">会社案内へ</a>
+                <a href="./company_info.html" class="btn mt-5" role="button">会社案内へ</a>
             </div>
 
         </div>
 
     </div>
 
+    <footer class="temp-footer">
+        <div class="yokonarabi-footer">
+            <a class="footer-border" href="index.html#annai">会社案内</a>
+            <a class="footer-border" href="#seikyu">資料請求</a>
+            <a class="footer-border" href="#">採用情報</a>
+            <a class="footer-border" href="inquiry.html">お問い合わせ</a>
+            <a class="footer-border" href="Achive.html">実績</a>
+        </div>
+        <h1 class="center" href="index.html"><img src="./img/logo.png" width="50" height="50" href="index.html">早池峰設備工業
+        </h1>
+    </footer>
+
 
     <!-- Bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

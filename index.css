@@ -218,3 +218,8 @@ a.btn:hover {
     color: #5B63F6;
     text-decoration: none;
 }
+
+a:hover ,
+a{
+    text-decoration: none;
+}
