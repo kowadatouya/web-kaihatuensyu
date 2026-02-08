@@ -187,7 +187,13 @@ button.btn:hover {
     color: #344F99;
 }
 
-.form input{
+.form input,
+.form select{
     background-color: #E6E6FA;
     box-shadow: 2px 2px 0px 0px #CECEED;
+}
+
+/* 発行部数入力欄の調整 */
+.form-select{
+    width: 10%;
 }
