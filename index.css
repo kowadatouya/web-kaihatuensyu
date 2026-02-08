@@ -48,6 +48,9 @@
     width: 80%;
     margin: 0 auto;
 }
+.Freezing_info a{
+    text-decoration: none;
+}
 
 /* 凍結案内テキスト */
 
