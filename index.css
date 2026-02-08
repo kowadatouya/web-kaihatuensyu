@@ -1,4 +1,24 @@
 @charset "utf-8";
+
+/* 文字下の余白削除 */
+.top_content h1,
+.top_content h2, .top_content h3, .top_content h4, .top_content h5, .top_content h6 , .top_content p{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.business-content h5{
+    padding: 0px;
+}
+
+.padding-bottom_0{
+    padding-bottom: 0px;
+}
+
 /* topメインビジュアル */
 .top-background{
     background-image: url("./img/top_background.png");
@@ -75,11 +95,12 @@
 }
 
 /* 見出し */
-.top_content .heading h1{
+.top_content .heading_h1{
     padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #F0F8FF;/*背景色*/
     border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
+    box-shadow: 5px 5px 0px #CECEED;
     width: 50%;
     text-align: center;
     font-weight: normal;
@@ -93,20 +114,26 @@
 
 
 /* 見出し2 */
-.top_content .heading h3,
-.top_content .heading h4{
+.top_content .heading_h2,
+.area-content .heading_h4{
     padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #DDEFFF;/*背景色*/
     border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
+    box-shadow: 5px 5px 0px #CECEED;
     width: 45%;
     text-align: center;
     font-weight: normal;
     margin: 0px;
 }
 
-.area-content .heading h4{
+.area-content .heading_h4{
     width: auto;
+}
+
+/* 見出し */
+.content h1{
+    color: #5B63F6;/*文字色*/
 }
 
 /* 事業内容 */
@@ -143,6 +170,10 @@
     border: solid 5px #9AD0FF;
 }
 
+.business-content{
+    text-align: center;
+}
+
 /* 対応地域 */
 .area_img{
     width: 219px;
@@ -175,7 +206,7 @@
 
 .btn {
     display: block;
-    box-shadow: 2px 2px 0px 0px #CECEED;
+    box-shadow: 5px 5px 0px #CECEED;
     background-color: #E6E6FA;
     color: #5B63F6;
     padding: 5%;
@@ -213,13 +244,19 @@
     font-weight: bold;
 }
 
-a.btn:hover {
+a.btn {
     background-color: #E6E6FA;
     color: #5B63F6;
     text-decoration: none;
+    border: none;
+    transition: none;
+}
+.content a.btn:hover,
+.content a.btn:active,
+.content a.btn:focus,
+.content a.btn:focus-visible {
+    background-color: #E6E6FA ;
+    color: #5B63F6 ;
+    border: none ;
 }
 
-a:hover ,
-a{
-    text-decoration: none;
-}

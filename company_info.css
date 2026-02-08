@@ -1,4 +1,21 @@
 @charset "utf-8";
+
+
+/* 文字下の余白削除 */
+.top_content h1,
+.top_content h2, .top_content h3, .top_content h4, .top_content h5, .top_content h6 , .top_content p{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.padding-bottom_0{
+    padding-bottom: 0px;
+}
+
 /* topメインビジュアル */
 .top-background{
     background-image: url("./img/info_top.png");
@@ -27,18 +44,24 @@
     margin: 0px 20px;
 }
 
-
 /* 見出し */
-.top_content .heading h1{
+.top_content .heading_h1{
     padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #F0F8FF;/*背景色*/
     border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
+    box-shadow: 5px 5px 0px #CECEED;
     width: 50%;
     text-align: center;
     font-weight: normal;
     margin: 0px;
     margin-left: -5%;
+}
+
+
+/* 見出し */
+.content h1{
+    color: #5B63F6;/*文字色*/
 }
 
 .auto{
@@ -47,20 +70,29 @@
 
 
 /* 見出し2 */
-.top_content .heading h3,
-.top_content .heading h4{
+.top_content .heading_h2{
     padding: 0.3em;/*文字周りの余白*/
     color: #5B63F6;/*文字色*/
     background: #DDEFFF;/*背景色*/
     border-left: solid 18px #ACD8FF;/*左線（実線 太さ 色）*/
+    box-shadow: 5px 5px 0px #CECEED;
     width: 45%;
     text-align: center;
     font-weight: normal;
     margin: 0px;
 }
 
-.area-content .heading h4{
+.pamphlet_button .heading_h2{
     width: auto;
+}
+
+.area-content .heading_h4{
+    width: auto;
+}
+
+.pamphlet_Recruitment h2{
+    font-size: 20px;
+    color: #5B63F6;
 }
 
 /* 事業内容 */
@@ -81,7 +113,7 @@
 
 .btn {
     display: block;
-    box-shadow: 2px 2px 0px 0px #CECEED;
+    box-shadow: 5px 5px 0px #CECEED;
     background-color: #E6E6FA;
     color: #5B63F6;
     width: 20%;
@@ -93,7 +125,8 @@
     font-weight: bold;
 }
 
-a.btn:hover {
+a.btn:hover,
+button.btn:hover {
     background-color: #E6E6FA;
     color: #5B63F6;
     text-decoration: none;
@@ -159,21 +192,21 @@ a.btn:hover {
     color: #344F99;
 }
 
-button.btn:hover {
+a.btn:hover {
     background-color: #E6E6FA;
     color: #5B63F6;
     text-decoration: none;
 }
 
-.pamphlet_button button.btn,
+.pamphlet_button a.btn,
 .Recruitment_info_button a.btn{
     width: auto;
 }
 
-.pamphlet_button button.btn h3,
+.pamphlet_button a.btn h3,
 .Recruitment_info_button a.btn h3,
 .Recruitment_info_button a.btn p,
-.pamphlet_button button.btn p{
+.pamphlet_button a.btn p{
     font-weight: normal;
     color: #5B63F6;
 }
@@ -197,3 +230,25 @@ button.btn:hover {
 .form-select{
     width: 10%;
 }
+/* 資料請求のボタン */
+.btn h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.button_style .btn {
+    background-color: #E6E6FA;
+    color: #5B63F6;
+    text-decoration: none;
+    border: none;
+    transition: none;
+}
+
+.button_style .btn:not(:disabled):not(.disabled):hover,
+.button_style .btn:not(:disabled):not(.disabled):active,
+.button_style .btn:not(:disabled):not(.disabled):focus {
+    background-color: #E6E6FA;
+    color: #5B63F6;
+}
+
